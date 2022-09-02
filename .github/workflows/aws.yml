@@ -37,7 +37,7 @@ env:
   AWS_REGION: us-east-1                   # set this to your preferred AWS region, e.g. us-west-1
   ECR_REPOSITORY: "dev-blocs-product-catalog-service-ecr"           # set this to your Amazon ECR repository name
   ECS_SERVICE: "dev-blocs-product-catalog-service-ecs-service"                 # set this to your Amazon ECS service name
-  ECS_CLUSTER: "blocs-development-cluster"                 # set this to your Amazon ECS cluster name
+  ECS_CLUSTER: "dev-blocs-product-catalog-service-ecs-cluster"                 # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: "$HOME/.aws/task-definition.json" # set this to the path to your Amazon ECS task definition
                                                # file, e.g. .aws/task-definition.json
   CONTAINER_NAME: "dev-blocs-product-catalog-service-container"           # set this to the name of the container in the
