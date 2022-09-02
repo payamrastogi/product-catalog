@@ -1,1 +1,2 @@
 - https://github.com/marketplace/actions/aws-secrets-manager-action
+- https://betterprogramming.pub/deploy-a-spring-boot-app-on-aws-ecs-with-github-actions-669928f62043
