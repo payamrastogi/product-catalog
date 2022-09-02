@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM adoptopenjdk/openjdk11:jdk-11.0.11_9-alpine
 RUN apk --no-cache add curl
 VOLUME /tmp
 ARG REGION_ARG=us-east-1
